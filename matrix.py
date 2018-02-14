@@ -2,7 +2,10 @@ import math
 
 
 def print_matrix( matrix ):
-    pass
+    for i in matrix:
+        print "| " + str(i[0]) + " " + str(i[1])+ " " + str(i[2]) + " |"
+
+print_matrix([[1, 2, 3], [2, 3, 4], [4,5,6]])
 
 def ident( matrix ):
     pass
